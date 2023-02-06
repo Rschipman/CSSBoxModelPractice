@@ -27,6 +27,7 @@ h1 {
   border-color: #e79f46;
   border-style: dotted;
   box-sizing: border-box;
+  margin-left: 10px;
 }
 /* when setting border all in one entry it is width/style/color*/
 #three {
@@ -37,6 +38,6 @@ h1 {
 }
 
 button {
-  /* vertical/ horizontal */
+  margin: 5em;
   padding: 10px 20px;
 }
