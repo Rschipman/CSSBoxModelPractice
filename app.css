@@ -4,6 +4,11 @@ div {
   height: 200px;
   background-color: bisque;
 }
+h1 {
+  background-color: rgb(165, 207, 245);
+  padding-left: 200px;
+  padding-top: 100px;
+}
 
 /* border-width controls the thickness of the border */
 /* border-color controls the color of the border */
@@ -26,7 +31,12 @@ div {
 /* when setting border all in one entry it is width/style/color*/
 #three {
   background-color: #fdffb6;
-  border: 4px solid black;
+  border: 4px solid #caffbf;
   border-radius: 50%;
   /* 50% radius all around creates a circle. the text will not be in the circle though */
+}
+
+button {
+  /* vertical/ horizontal */
+  padding: 10px 20px;
 }
